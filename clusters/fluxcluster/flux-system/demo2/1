@@ -6,8 +6,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./KubernetesVotingApp/
+  path: ./
   prune: true
   sourceRef:
     kind: GitRepository
-    name: DockerVotingApp
+    name: flaxydemo
