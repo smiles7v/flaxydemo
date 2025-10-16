@@ -10,4 +10,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: flaxydemo
+    name: demo2-source-git
+  targetNamespace: devopsinaction
