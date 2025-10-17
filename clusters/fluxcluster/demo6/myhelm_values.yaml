@@ -1,8 +1,8 @@
 service:
-  type: LoadBalancer
+  type: NodePort
   ports:
     http: 80
     https: 443
   nodePorts:
-    http: 31000
-    https: 31100
+    http: 31100
+    https: 31101
