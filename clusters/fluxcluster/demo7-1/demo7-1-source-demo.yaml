@@ -10,5 +10,5 @@ spec:
   ref:
     tag: 872d790
   secretRef:
-    name: ghcr-secret
+    name: ghcr-creds
   url: oci://ghcr.io/smiles7v/fluxdemomanifests
