@@ -17,9 +17,9 @@ spec:
   values:
     service:
       nodePorts:
-        http: 31000
-        https: 31100
+        http: 31100
+        https: 31101
       ports:
         http: 80
         https: 443
-      type: LoadBalancer
+      type: NodePort
