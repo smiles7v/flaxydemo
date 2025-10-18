@@ -7,5 +7,4 @@ metadata:
 spec:
   interval: 1m0s
   url: oci://registry-1.docker.io/bitnamicharts
-  type: oci 
-  values: Values.yaml
+  type: oci

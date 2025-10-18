@@ -1,0 +1,9 @@
+service:
+  type: NodePort
+  ports:
+    - name: http
+      port: 80
+      nodePort: 31000
+    - name: https
+      port: 443
+      nodePort: 31100
