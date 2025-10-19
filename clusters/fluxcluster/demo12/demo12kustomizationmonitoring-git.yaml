@@ -10,4 +10,4 @@ spec:
   prune: false
   sourceRef:
     kind: GitRepository
-    name: demo12-source-monitoringgit
+    name: demo12-source-monitoring-git
