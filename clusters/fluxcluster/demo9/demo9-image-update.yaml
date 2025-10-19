@@ -20,5 +20,5 @@ spec:
     kind: GitRepository
     name: flux-system
   update:
-    path: ./ clusters/flux-cluster
+    path: ./ mnt/c/fluxdemo/flaxydemo/clusters/fluxcluster/
     strategy: Setters
