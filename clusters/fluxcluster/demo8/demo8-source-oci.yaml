@@ -1,0 +1,14 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: OCIRepository
+metadata:
+  name: demo8-source-oci
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  provider: generic
+  ref:
+    tag: 1.1.1
+  secretRef:
+    name: ghcr-creds
+  url: oci://ghcr.io/smiles7v/ocidemo-chart
